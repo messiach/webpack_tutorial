@@ -1,0 +1,22 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "Testing webpack through a tutorial on youtube.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "build:dev": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "author": "mess",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.15.1"
+  },
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.21.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
